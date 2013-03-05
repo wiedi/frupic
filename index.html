@@ -6,9 +6,9 @@
 		<title>frupic.frubar.net</title>
 	</head>
 	<body>
-		<div id="header">
+		<header>
 			<h1>frupic</h1>
-		</div>
+		</header>
 		<div id="frupics"></div>
 		
 		<script type="text/javascript" src="js/libs/jquery.js"></script>
@@ -21,8 +21,8 @@
 
 		<script id="frupic-tmpl" type="text/x-jquery-tmpl">
 			<div class="post">
-				<p class="text"><a href="?user=${username}">${username}</a></p>
 				<img class="img" src="${url}" />
+				<p class="text">Posted by <a href="?user=${username}">${username}</a> on <span>${date}</span</p>
 			</div>
 	    </script>
 	</body>

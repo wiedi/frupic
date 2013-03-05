@@ -1,6 +1,12 @@
 body {
+	font-family: sans-serif;
 	margin: auto;
 	width: 100%;
+	background-color: #efe;
+}
+
+header {
+	margin-left: 1em;
 }
 
 #frupics {
@@ -10,13 +16,13 @@ body {
 }
 
 .post {
-	margin: 0px 60px;
-	padding: 15px;
+	margin-left: 2em;
+	margin-bottom: 1em;
 	min-height: 50px;
+	border-bottom: 1px solid #8f0;
 }
 
 .img {
-	border-radius: 15px;
-	margin: 0px 10px;
+	border-radius: 10px;
 	max-width: 100%;
 }
