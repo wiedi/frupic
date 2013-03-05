@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/main.css">
+		<title>frupic.frubar.net</title>
+	</head>
+	<body>
+		<div id="header">
+			<h1>frupic</h1>
+		</div>
+		<div id="frupics"></div>
+		
+		<script type="text/javascript" src="js/libs/jquery.js"></script>
+		<script type="text/javascript" src="js/libs/jquery-tmpl.js"></script>
+		<script type="text/javascript" src="js/libs/underscore.js"></script>
+		<script type="text/javascript" src="js/libs/backbone.js"></script>
+		<script type="text/javascript" src="js/scrollView.js"></script>
+		<script type="text/javascript" src="js/frupics.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+
+		<script id="frupic-tmpl" type="text/x-jquery-tmpl">
+			<div class="post">
+				<p class="text">${username}</p>
+				<img class="img" src="${url}" />
+			</div>
+	    </script>
+	</body>
+</html>
