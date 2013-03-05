@@ -13,6 +13,7 @@
 		
 		<script type="text/javascript" src="js/libs/jquery.js"></script>
 		<script type="text/javascript" src="js/libs/jquery-tmpl.js"></script>
+		<script type="text/javascript" src="js/libs/jquery.timeago.min.js"></script>
 		<script type="text/javascript" src="js/libs/underscore.js"></script>
 		<script type="text/javascript" src="js/libs/backbone.js"></script>
 		<script type="text/javascript" src="js/scrollView.js"></script>
@@ -22,7 +23,7 @@
 		<script id="frupic-tmpl" type="text/x-jquery-tmpl">
 			<div class="post">
 				<img class="img" src="${url}" />
-				<p class="text">Posted by <a href="?user=${username}">${username}</a> on <span>${date}</span</p>
+				<p class="text">Posted by <a href="?user=${username}">${username}</a> <abbr class="timeago" title="${date}">${date}</abbr></p>
 			</div>
 	    </script>
 	</body>
