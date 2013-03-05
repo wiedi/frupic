@@ -15,12 +15,6 @@ body {
 	min-height: 50px;
 }
 
-.text {
-	color: darkmagenta;
-	margin-bottom: 10px;
-	font-weight: bold;
-}
-
 .img {
 	border-radius: 15px;
 	margin: 0px 10px;
