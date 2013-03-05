@@ -36,7 +36,8 @@ var ScrollView = Backbone.View.extend({
 
 			this.isLoading = false;
 		}
-			
+		$("abbr.timeago").timeago();
+		
 		$("#load").remove();
 	},
 
